@@ -3,8 +3,10 @@
 
 $content-width: 1200px;
 $header-brand-color: #ffc94b;
+$base-font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
 
 @import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .site-header {
     background: #1d1d1d;
