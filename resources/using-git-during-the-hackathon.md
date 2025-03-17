@@ -14,7 +14,7 @@ during the hackathon, with some links to training material for Git and GitHub,
 if you'd like to learn more.
 
 In summary:
-* Each project has a [GitHub repo](https://github.com/cmip6moap) – use this for
+* Each project has a [GitHub repo](https://github.com/cmip6moap) -- use this for
   code, outputs and small amounts of data
 * Each project also has a directory in our shared Group Workspace:
   `/gws/pw/j05/cop26_hackathons/bristol`
@@ -65,7 +65,7 @@ indicating that you (or the members of your team for whom you are committing),
 are happy with this.
 
 Other than cloning a public repo, most of the commands you will need to run to
-work with Git and GitHub will require you to use the command line – for JASMIN
+work with Git and GitHub will require you to use the command line -- for JASMIN
 you will need to connect via SSH. The default text editor on JASMIN is Vim, so
 you may need to take a look at this [Vim command reference](https://vim.rtorr.com/).
 
@@ -124,7 +124,7 @@ We ask that by the end of the hackathon:
     │   │── 02_Data_analysis.ipynb
     │   └── 03_Data_visualisation.ipynb
     │           The Jupyter Notebooks that you created, making sure to structure
-    │           them clearly (see below) – add a README to explain them
+    │           them clearly (see below) -- add a README to explain them
     │
     ├── code
     │   ├── data_cleaning.py
@@ -132,13 +132,13 @@ We ask that by the end of the hackathon:
     │           Any code (Python or otherwise) that you created that doesn't
     │           sit within a Notebook (for example, larger data processing tasks
     │           that ran on the Scientific Analysis Servers, or batch processing
-    │           performed on LOTUS) – add a README to explain them
+    │           performed on LOTUS) -- add a README to explain them
     │
     ├── results
     │   ├── figure1.pdf
     │   └── figure2.png
     │           The key figures that you produced (possibly extracted from your
-    │           notebooks) – add a README to explain them
+    │           notebooks) -- add a README to explain them
     │
     ├── data
     │   ├── raw_data

@@ -29,7 +29,7 @@ physical and virtual spaces.
 * Graceful acceptance of constructive criticism
 * Make space for others to speak and ask questions
 * Appreciate that people will have different skill, levels of knowledge and
-  expertise – be patient
+  expertise -- be patient
 
 ## Unacceptable behaviour
 
@@ -43,7 +43,7 @@ physical and virtual spaces.
 * Real or implied threat of professional or financial damage or harm. 
 * Inappropriate disruption of meetings or events. 
 * Photographing, video or audio recording of slides, oral or poster
-  presentations without presenter/author’s permission. 
+  presentations without presenter/author's permission. 
 * Violating the rules and regulations of the online platform (e.g. Zoom). 
 
 ## Reporting incidents
@@ -73,5 +73,5 @@ actions we take could include:
 * Removal from mailing list or positions on committees or working groups.
 
 
-[1]: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG8HSjJO_xV9IvETmnVS-rt1UOExST1JSRTdQSENQODBUQVQzUE1JTUI3WS4u
-[2]: https://www.bristol.ac.uk/inclusion/stand-up-speak-out/acceptable-behaviour-supporters/
+[1]: ...
+[2]: ...

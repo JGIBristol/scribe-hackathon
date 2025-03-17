@@ -2,7 +2,7 @@
 ---
 
 $content-width: 1200px;
-$header-brand-color: #bbdd11;
+$header-brand-color: #ffc94b;
 
 @import "minima";
 
@@ -14,8 +14,14 @@ $header-brand-color: #bbdd11;
 }
 
 .site-nav {
+    background: #1d1d1d;
+
     @include media-query($on-palm) {
         margin-top: 12px;
+    }
+
+    .menu-icon > svg {
+        fill: #fff;
     }
 
     .page-link {
@@ -38,22 +44,19 @@ $header-brand-color: #bbdd11;
             color: #fff;
             font-weight: 600;
             pointer-events: none;
-
-            @include media-query($on-palm) {
-                color: #000;
-            }
         }
     }
 }
 
 .site-title {
     display: block;
-    background: no-repeat center left url(logo.png);
+    background: no-repeat center left url(logo_dark.svg);
     background-size: 60px;
     padding: 15px 0 15px 70px;
     line-height: 23px;
     font-weight: 500;
     margin-right: 10px;
+    letter-spacing: -0.25pt;
     
     small {
         font-size: 59%;
@@ -95,6 +98,7 @@ h1.secondary {
     margin-bottom: $spacing-unit;
     padding: 0.85*$spacing-unit 0.75*$spacing-unit;
     background: #f0f0f0;
+    overflow: hidden;
     @include relative-font-size(1.25);
     @include media-query($on-laptop) {
         @include relative-font-size(1.125);
@@ -102,7 +106,7 @@ h1.secondary {
 }
 
 .aside {
-    margin: 0.5*$spacing-unit 0 0.5*$spacing-unit 0.5*$spacing-unit;
+    margin: 0 0 0.5*$spacing-unit 0.5*$spacing-unit;
     padding: 0.85*$spacing-unit 0.75*$spacing-unit;
     background: #f0f0f0;
     @include relative-font-size(1.25);
@@ -141,10 +145,13 @@ dl {
     } 
 
     tr td:first-child {
-        width: 80px;
+        width: 100px;
 
         img {
             border-radius: 50%;
+            object-fit: cover;
+            width: 100px;
+            aspect-ratio: 1;
         }
     }
 
@@ -260,6 +267,7 @@ iframe.template {
 }
 
 ul.grid {
+    margin-top: 40px;
     margin-left: 0;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

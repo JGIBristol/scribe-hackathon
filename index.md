@@ -1,23 +1,12 @@
 ---
 layout: page
-title: Template Hackathon
+title: SCRIBE Hackathon
 menu_title: Home
 menu_icon: house-door
 ---
 
 {:.secondary}
-# {{ site.event_date }}, in association with the University of Bristol
-
-<!-- REMOVE THIS SECTION when you use this template -->
-<div class="lead" markdown="1">
-This is a demo of the template repository for a public-facing hackathon website,
-built by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the
-University of Bristol.
-
-For more information: view the [README](https://github.com/jgibristol/hackathon-template/blob/main/README.md) 
-or the [GitHub repository](https://github.com/jgibristol/hackathon-template).
-</div>
-<!-- END of section to remove -->
+# {{ site.event_date }} -- {{ site.event_date_2 }}, in association with the Jean Golding Institute
 
 <div class="aside">
     <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
@@ -40,49 +29,35 @@ or the [GitHub repository](https://github.com/jgibristol/hackathon-template).
         <dd>Applications close</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Hackathon date</dd>
+        <dd>Full-day kick off workshop (in-person)</dd>
+
+        <dt>{{ site.event_date }} – {{ site.event_date_2 }}</dt>
+        <dd>Period of exploration</dd>
+
+        <dt>{{ site.event_date_2 }}</dt>
+        <dd>Half-day review workshop (hybrid)</dd>
     </dl>
 </div>
 
 {% if site.event_status != "over" %}
 
-Scientists from the University of Bristol are hosting a X-day hackathon on
-{{ site.event_date }}, open to researchers, to...
+{:.lead}
+The SCRIBE Hackathon is a **biothreat datathon** to explore access, nature, and integration of data relating to **biothreats in complex environments**.
 
-Researchers can sign up to [topics ranging from]({{ site.baseurl }}{% link projects.md %})
-... to ..., and more. Teams will be led by senior academics from a range of
-disciplines at the University of Bristol, but participating researchers can be
-from any UK academic institution. [This opportunity]({{ site.baseurl }}{% link registration.md %})
-is open to early career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}.
+Working with expert partners from across life sciences, we will be uncovering how best to unite complex data sources relating to fragile settings including criminal activity, conflict-affected regions, climate vulnerability, and complex socio-political landscapes.
 
-Participation is open to **researchers from any UK academic institution**, and
-we encourage contributions from **early career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"},
-including PhDs and Postdocs.
+Participants can work on **[challenge areas]({{ site.baseurl }}{% link challenges.md %})** including transboundary One Health threats, resistant infections, and more.
+Challenge owners will provide briefings to the attendees, and an expert team will be available throughout for advice.
 
-## Logistics
+The hackathon will commence on **{{ site.event_date }}** with a full-day kick off workshop (in-person).
+There will them be a period of exploration, followed by a half-day review workshop (hybrid) on **{{ site.event_date_2 }}**.
 
-The event will take place virtually, using a combination of **video
-conferencing** (Zoom) for meetings and seminars, and **discussion forums**
-(Slack) for ongoing comms. Data holding and analysis will take place on...
-
-## Outputs
-
-By the end of the event, we hope to...
+[**Participation is open to researchers and staff**]({{ site.baseurl }}{% link registration.md %}) from any research institution, and we encourage contributions from **early career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
 
 [faq]: {{ site.baseurl }}{% link faq.md %}
 
 {% else %}
 
-Scientists from the University of Bristol hosted a X-day hackathon on
-{{ site.event_date }}, open to researchers, to...
-
-Researchers could sign up to [topics ranging from]({{ site.baseurl }}{% link projects.md %})
-... to ..., and more. Teams were be led by senior academics from a range of
-disciplines at the University of Bristol, but participating researchers could be
-from any UK academic institution.
-
-The event took place virtually, using a combination of **video conferencing**
-(Zoom) for meetings and seminars, and **discussion forums** (Slack) for ongoing
-comms. Data holding and analysis took place on...
+...
 
 {% endif %}

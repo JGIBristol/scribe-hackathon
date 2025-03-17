@@ -7,17 +7,12 @@ event_status:
 ---
 
 {:.lead}
-Participation is open to researchers from any UK academic institution,
-and we encourage contributions from early career
-researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career
-Researcher (ECR)?"}, including PhDs and Postdocs. {% if site.registration_status
-== "soon" or site.registration_status == "demo" %}Registration opens on
-{{ site.registration_opens_date }}.{% endif %} The closing date for applications
-is {{ site.registration_closes_date }}.
+Participation is open to researchers and staff from any research institution, and we encourage contributions from early career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
+{% if site.registration_status == "soon" or site.registration_status == "demo" %}Registration opens on {{ site.registration_opens_date }}.{% endif %}
+The closing date for applications is {{ site.registration_closes_date }}.
 
 <div class="aside" markdown="1">
-This virtual event will require some commitment prior to and including the
-Hackathon Event which will take part from {{ site.event_date }}.
+Check the [commitment required](#what-commitment-is-required) and that you can attend both workshop dates: {{ site.event_date }} and {{ site.event_date_2 }}.
 
 {% if site.registration_status == "soon" or site.registration_status == "demo" %}
   <a class="btn disabled">Registration opens soon</a>
@@ -32,32 +27,37 @@ Hackathon Event which will take part from {{ site.event_date }}.
 The closing date for applications is {{ site.registration_closes_date }}.
 </div>
 
-We are looking for enthusiastic and dedicated researchers who already have
-experience with analysing ... data, and who are keen to experience working with
-different scientists and institutes, and perhaps on topics not immediately in
-their area. We also intend that early career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"},
-will build strong relationships with their peers from other institutes. 
+## Who we are looking for
 
-This virtual event will require approximately two hours commitment prior to the
-hackathon, and then X days commitment during the event, which will take part
-from **{{ site.event_date }}**. Technical support and guidance will be provided
-by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the
-University of Bristol, but we expect all applicants to have prior knowledge of
-scientific programming.
+We're looking for dynamic individuals who love working with data to address difficult interdisciplinary questions.
+Supported by an expert team, participants will be responding to real-world questions from key decision-makers in UK Government and beyond.
 
-We will supply each researcher with a temporary hackathon account on ..., which
-will give then access to a Python&nbsp;3 notebook environment and a variety of
-relevant datasets, for which we can provide technical support and guidance.
-Researchers may be able to use other programming languages and tools, however we
-will only be able to provide limited support for these.
+Participation is open to researchers and staff from any research institution, and we encourage contributions from **early career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
 
-If you are interested in applying and having the opportunity to engage with
-like-minded scientists, then please complete the application form by clicking
-the link above. Please be aware that this event will only be open to those
-residing in UK academic institutions.
+We anticipate that you'll have some experience in working with data, which may include scientific programming (in languages such as _Python_ or _R_), data mining, data cleaning, statistics or data visualisation.
+We'd like to welcome a broad range of participants, and technical support and guidance will be provided by the [Jean Golding Institute](https://bristol.ac.uk/golding/).
 
-The closing date for the applications is {{ site.registration_closes_date }}. If
-you have any queries, or have any difficulties completing the registration form,
-please email our dedicated mailbox: <{{ site.mailbox_address }}>.
+If you're still unsure whether you have the right skills, you are welcome to [email us for advice](mailto:{{ site.mailbox_address }}).
+
+## Why join the event
+
+Over two sessions, you'll hear from practitioners and researchers working on some of the most complex problems and existential threats we face today.
+By joining the hackathon, you'll become part of a dynamic community of interdisciplinary researchers, exposure to security and defence thinking, and identify future ways to collaborate as the project evolves.
+
+We also hope that by participating you will build strong relationships with peers from other research areas. 
+
+## What commitment is required
+
+- Approximately ?? hours of preparation before the first workshop.
+- Attendance in-person at the full-day kick off workshop on **{{ site.event_date }}**.
+- Work on your challenge area during the period of exploration (we anticipate ?? hours, however as much as you can reasonably contribute).
+- Attendance either in-person or online at the half-day review workshop on **{{ site.event_date_2 }}**.
+
+## How to apply
+
+If you are interested in applying and having the opportunity to engage with like-minded researchers, then please complete the application form by clicking the link above.
+
+The closing date for the applications is {{ site.registration_closes_date }}.
+If you have any queries, or have any difficulties completing the registration form, please email: <{{ site.mailbox_address }}>.
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

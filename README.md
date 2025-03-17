@@ -1,4 +1,4 @@
-# Hackathon website template
+# SCRIBE Hackathon website
 
 This is a template repository for a public-facing hackathon website, built by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the University of Bristol.
 
@@ -77,7 +77,7 @@ We have tried to put as many of the common site settings and variables in `_conf
 
 * `event_date`: The date(s) of your event, displayed in various places around the site
 
-* `registration_opens_date`: As above, but the date registration opens (this doesn't control when the form is actually diaplayed – see below for how to do this)
+* `registration_opens_date`: As above, but the date registration opens (this doesn't control when the form is actually diaplayed -- see below for how to do this)
 
 * `registration_closes_date`: As above, but the date registration closes
 
@@ -140,4 +140,4 @@ $ git push
 
 ## Acknowledgements
 
-This template was originally based on the [CMIP6 Data Hackathon](https://cmip6moap.github.io/) website and resources that we created for the event on 2–4 June 2021. It has now been modified to suit a wider variety of virtual hackathons.
+This template was originally based on the [CMIP6 Data Hackathon](https://cmip6moap.github.io/) website and resources that we created for the event on 2--4 June 2021. It has now been modified to suit a wider variety of virtual hackathons.

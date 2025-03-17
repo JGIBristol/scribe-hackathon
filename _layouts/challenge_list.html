@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul class="grid">
+  {% for challenge in site.challenges %}
+    <li class="project">
+      <h3>Challenge {{ challenge.number }}: <a href="{{ site.baseurl }}{{ challenge.url }}">{{ challenge.title }}</a></h3>
+      {{ challenge.content | truncatewords: 50 }}
+    </li>
+  {% endfor %}
+</ul>

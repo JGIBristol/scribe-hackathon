@@ -92,7 +92,6 @@ Each project has been assigned:
 
 * A **GitHub repository**, which you can use to share you code and the outcomes
   of your work
-* A directory in the hackathon's **Group Workspace**, a shared filesystem on JASMIN that every participant will have read and write access to[^1]
 
 <div class="lead" markdown="1">
 We ask that by the end of the hackathon:
@@ -109,46 +108,6 @@ We ask that by the end of the hackathon:
    repository, or perhaps you will allocate a member of your team who will be
    responsible for committing everyone's work
 </div>
-
-## How to make use of JASMIN
-
-[JASMIN](https://www.jasmin.ac.uk/about/) is the UK's data analysis facility for
-environmental science and includes access to the [CEDA Archive](https://www.ceda.ac.uk/).
-It is operated by [STFC](https://stfc.ukri.org/) on behalf of [NERC](https://stfc.ukri.org/).
-
-To access JASMIN [you need an account]({{ site.baseurl }}{% link resources/creating-jasmin-account.md %}).
-If you don't already have an account then we will allocate you a temporary
-account that you can use for the duration of the hackathon. Bear in mind that
-all data in temporary accounts will be removed at the end of the hackathon, so
-you must have [saved your data elsewhere](#how-we-are-storing-code-data-and-outputs).
-
-JASMIN provides a large number of services, but we anticipate that most team
-members will be using:
-
-* The **[Notebook Service](https://notebooks.jasmin.ac.uk/)**, a service that
-  allows users to build and execute Jupyter Notebooks which allows Python 3 to
-  be run through a web browser.
-
-  For those of you unfamiliar with Notebooks, we suggest you take a look at some
-  [example notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks).
-  In essence, Notebooks are an interactive computing environment allowing you to
-  combine narrative text (written in [Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html))
-  with code and the output of that code.
-
-  This means they can be made into a complete and self-contained record of a
-  computation. They are **well-suited to data visualisation and teaching**. You
-  can [recreate an entire journal article](https://nbviewer.ipython.org/github/cossatot/lanf_earthquake_likelihood/blob/master/notebooks/lanf_manuscript_notebook.ipynb),
-  [compare different models](https://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
-  or [demonstrate a method](https://nbviewer.ipython.org/github/robertodealmeida/notebooks/blob/master/earth_day_data_challenge/Analyzing%20whale%20tracks.ipynb).
-
-However for tasks other than data visualisation, team members more familiar with
-JASMIN may also wish to use:
-
-* The **[Scientific analysis servers](https://help.jasmin.ac.uk/article/121-sci-servers)**,
-  to run scripts from the command line ([using SSH](https://github.com/cedadev/jasmin-workshop/blob/master/exercises/ex00/))
-  or push/pull changes to/from GitHub[^2]
-* The **[LOTUS job system](https://help.jasmin.ac.uk/article/4880-batch-scheduler-slurm-overview)**,
-  to execute batch jobs for long-running jobs processing large amounts of data
 
 ## Where to go for help
 
@@ -172,7 +131,6 @@ will be available throughout the hackathon to offer support and assistance.
 Among other things, they can offer help with:
 
 * Hackathon organisation questions
-* Using JASMIN
 * Using Jupyter Notebooks
 * Python technical queries, e.g. pandas, matplotlib, xarray, etc.
 * Best practices for reproducibility
@@ -183,14 +141,3 @@ Among other things, they can offer help with:
 We really appreciate your feedback on this hackathon, in the hope that we can
 improve future events for yourself and others. Near the end of the hackathon we
 will send round a link to a feedback form for you to complete.
-
-#### Notes
-
-[^1]: Note that when using the JASMIN Notebook Service, you only have read-only
-      access to Group Workspaces, however when logged in via SSH you will have
-      full read/write access.
-
-[^2]: All the Scientific analysis servers will allow you to communicate with
-      GitHub using HTTPS, however if you wish to use SSH then you [will need to
-      use](https://help.jasmin.ac.uk/article/121-sci-servers) `sci1`, `sci2`,
-      `sci4` or `sci5`.
