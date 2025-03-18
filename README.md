@@ -1,6 +1,6 @@
 # SCRIBE Hackathon website
 
-This is a template repository for a public-facing hackathon website, built by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the University of Bristol.
+This is a template repository for a public-facing hackathon website, built by the [Jean Golding Institute](https://bristol.ac.uk/golding/) at the University of Bristol.
 
 The template is designed to get you started as quickly as possible with a working website. For this reason we have built a [GitHub Pages](https://pages.github.com/) website so you can also host it for free and allow others to collaborate easily.
 
@@ -77,7 +77,7 @@ We have tried to put as many of the common site settings and variables in `_conf
 
 * `event_date`: The date(s) of your event, displayed in various places around the site
 
-* `registration_opens_date`: As above, but the date registration opens (this doesn't control when the form is actually diaplayed -- see below for how to do this)
+* `registration_opens_date`: As above, but the date registration opens (this doesn't control when the form is actually diaplayed - see below for how to do this)
 
 * `registration_closes_date`: As above, but the date registration closes
 
@@ -118,7 +118,7 @@ As the event organisation progresses, you will want to show different content on
 
 * Use the [Liquid link tag](https://jekyllrb.com/docs/liquid/tags/#links) to link to other pages using their Markdown filename, for example:
 
-      [Link to code of conduct]({{ site.baseurl }}{% link code-of-conduct.md %})
+      [Link to code of conduct]({{ site.code_of_conduct_url }})
 
   The link will be automatically rendered to the correct HTML file. Always start links from the root of the site, and because this is Jekyll 3.9 (rather than 4), you need to prepend the link with `{{ site.baseurl }}`
 
@@ -140,4 +140,4 @@ $ git push
 
 ## Acknowledgements
 
-This template was originally based on the [CMIP6 Data Hackathon](https://cmip6moap.github.io/) website and resources that we created for the event on 2--4 June 2021. It has now been modified to suit a wider variety of virtual hackathons.
+This template was originally based on the [CMIP6 Data Hackathon](https://cmip6moap.github.io/) website and resources that we created for the event on 2-4 June 2021. It has now been modified to suit a wider variety of virtual hackathons.

@@ -2,7 +2,7 @@
 title: Participant guide
 date: 2021-05-14
 authors:
- - "[James Thomas](https://github.com/jatonline/) ([Jean Golding Institute](https://www.bristol.ac.uk/golding/))"
+ - "[James Thomas](https://github.com/jatonline/) ([Jean Golding Institute](https://bristol.ac.uk/golding/))"
 layout: resource
 ---
 
@@ -30,7 +30,7 @@ You can also [view this guide as a presentation]({{ site.baseurl }}{% link resou
 
 We value the input of all our participants and want everyone to have an
 enjoyable experience at our hackathon. All participants and organisers are
-required to agree with and follow our [code of conduct]({{ site.baseurl }}{% link code-of-conduct.md %}),
+required to agree with and follow our [code of conduct]({{ site.code_of_conduct_url }}),
 and this will be enforced this throughout the event. We expect everyone to
 behave professionally and show each other respect and courtesy to others
 throughout the event. This includes social and fringe events, whether officially
@@ -44,7 +44,7 @@ this, so please don't pressure others to do so.
 **If there is a problem,** then please reach out to one of the organisers via
 direct message on Slack (if you feel comfortable doing so), or alternatively
 [contact us via email](mailto:cmip6moap-hackathonevent2021@bristol.ac.uk). Our
-[code of conduct]({{ site.baseurl }}{% link code-of-conduct.md %}) also provides other means of
+[code of conduct]({{ site.code_of_conduct_url }}) also provides other means of
 reporting incidents.
 
 ## How our event is structured
@@ -124,7 +124,7 @@ The JASMIN website has an excellent set of [documentation](https://help.jasmin.a
 a query about JASMIN then we recommend you take a quick look there first.
 
 Otherwise, we have a team of Data Scientists from the University of Bristol's
-[Jean Golding Institute](https://www.bristol.ac.uk/golding/) in addition to a
+[Jean Golding Institute](https://bristol.ac.uk/golding/) in addition to a
 pool of climate researchers from the universities of Bristol and Exeter, that
 will be available throughout the hackathon to offer support and assistance.
 

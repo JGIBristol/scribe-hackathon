@@ -10,15 +10,20 @@ author: Jean Golding Institute, University of Bristol
 mailbox_address: jgi-admin@bristol.ac.uk
 
 description:
-  The SCRIBE Hackathon is a biothreat datathon to explore access, nature, and 
-  integration of data relating to biothreats in complex environments. 
-  Working with expert partners from across life sciences, we will be uncovering 
-  how best to unite complex data sources relating to fragile settings including 
-  criminal activity, conflict-affected regions, climate vulnerability, and 
+  The SCRIBE Hackathon is a biothreat datathon to explore access, nature, and
+  integration of data relating to biothreats in complex environments.
+  Working with expert partners from across life sciences, we will be uncovering
+  how best to unite complex data sources relating to fragile settings including
+  criminal activity, conflict-affected regions, climate vulnerability, and
   complex socio-political landscapes.
+
+footer:
+  Supported and funded by the<br>
+  <a href="https://bristol.ac.uk/golding/">Jean Golding Institute</a>, University of Bristol
 
 url: "https://jgibristol.github.io/scribe-hackathon/"
 github_repo: JGIBristol/scribe-hackathon
+code_of_conduct_url: https://bristol.ac.uk/golding/code-of-conduct/
 
 theme: minima
 
