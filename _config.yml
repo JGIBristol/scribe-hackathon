@@ -2,12 +2,12 @@ title: SCRIBE Hackathon
 nav_title: SCRIBE Hackathon<br> <small>Exploring data on biothreats in complex environments</small>
 
 event_date: 14 April 2025
-event_date_2: 5 May 2025
+event_date_2: 6 May 2025
 registration_opens_date: 24 March 2025
 registration_closes_date: 6 April 2025
 
 author: Jean Golding Institute, University of Bristol
-mailbox_address: jgi-admin@bristol.ac.uk
+mailbox_address: arcs-group@bristol.ac.uk
 
 description:
   The SCRIBE Hackathon is a biothreat datathon to explore access, nature, and
@@ -50,7 +50,7 @@ event_status: soon
 #   open = Registration form is open
 # closed = Registration form is now closed
 #  (demo = show all pages to demonstrate the template)
-registration_status: soon
+registration_status: open
 
 # Remove ".html" from default permalinks
 permalink: pretty

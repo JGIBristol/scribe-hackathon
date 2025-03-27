@@ -7,7 +7,7 @@ event_status:
 ---
 
 {:.lead}
-Participation is open to researchers and staff from any research institution, and we encourage contributions from early career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
+Participation is open to researchers and staff from any research institution, and we encourage contributions from early and mid-career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
 {% if site.registration_status == "soon" or site.registration_status == "demo" %}Registration opens on {{ site.registration_opens_date }}.{% endif %}
 The closing date for applications is {{ site.registration_closes_date }}.
 
@@ -18,7 +18,7 @@ Check the [commitment required](#what-commitment-is-required) and that you can a
   <a class="btn disabled">Registration opens soon</a>
 {% endif %}
 {% if site.registration_status == "open" or site.registration_status == "demo" %}
-  [Complete the application form](https://forms.office.com/...){:.btn target="_blank"}
+  [Complete the application form](https://forms.office.com/e/Yi7abz3bbF){:.btn target="_blank"}
 {% endif %}
 {% if site.registration_status == "closed" or site.registration_status == "demo" %}
   <a class="btn disabled">Registration has closed</a>
@@ -30,9 +30,10 @@ The closing date for applications is {{ site.registration_closes_date }}.
 ## Who we are looking for
 
 We're looking for dynamic individuals who love working with data to address difficult interdisciplinary questions.
+You might have expertise in microbiology, climate data, migration, economics, AI, public health, or something different.
 Supported by an expert team, participants will be responding to real-world questions from key decision-makers in UK Government and beyond.
 
-Participation is open to researchers and staff from any research institution, and we encourage contributions from **early career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
+Participation is open to researchers and staff from any research institution, and we encourage contributions from **early and mid-career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
 
 We anticipate that you'll have some experience in working with data, which may include scientific programming (in languages such as _Python_ or _R_), data mining, data cleaning, statistics or data visualisation.
 We'd like to welcome a broad range of participants, and technical support and guidance will be provided by the [Jean Golding Institute](https://bristol.ac.uk/golding/).
@@ -48,9 +49,9 @@ We also hope that by participating you will build strong relationships with peer
 
 ## What commitment is required
 
-- Approximately ?? hours of preparation before the first workshop.
+- Approximately 1 hour of preparation before the first workshop (watching video briefings for the challenge areas and following any reading links).
 - Attendance in-person at the full-day kick off workshop on **{{ site.event_date }}**.
-- Work on your challenge area during the period of exploration (we anticipate ?? hours, however as much as you can reasonably contribute).
+- Work on your challenge area during the period of exploration to develop ideas/resources (as much as you can reasonably contribute).
 - Attendance either in-person or online at the half-day review workshop on **{{ site.event_date_2 }}**.
 
 ## How to apply
