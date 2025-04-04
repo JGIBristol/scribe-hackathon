@@ -12,7 +12,7 @@ SCRIBE is a collaborative approach transcending traditional knowledge community 
 ## The project team
 
 {:.lead}
-To contact us about the hackathon, please email: <{{ site.mailbox_address }}>
+To contact us about the hackathon, please email: <span class="nowrap"><{{ site.mailbox_address }}></span>
 
 <table class="team-list">
     <tr>

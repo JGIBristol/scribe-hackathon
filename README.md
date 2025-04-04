@@ -75,11 +75,9 @@ We have tried to put as many of the common site settings and variables in `_conf
 
 * `nav_title`: The name and strapline of the site used in the top nav, with optional `<span>` tags allowing for parts of it to be hidden when viewing on a mobile phone
 
-* `event_date`: The date(s) of your event, displayed in various places around the site
+* `event_date` and `event_date_2`: The date(s) of your event, displayed in various places around the site
 
 * `registration_opens_date`: As above, but the date registration opens (this doesn't control when the form is actually diaplayed - see below for how to do this)
-
-* `registration_closes_date`: As above, but the date registration closes
 
 * `author`: The organising institution
 

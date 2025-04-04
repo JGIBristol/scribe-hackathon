@@ -8,11 +8,10 @@ event_status:
 
 {:.lead}
 Participation is open to researchers and staff from any research institution, and we encourage contributions from early and mid-career researchers[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
-{% if site.registration_status == "soon" or site.registration_status == "demo" %}Registration opens on {{ site.registration_opens_date }}.{% endif %}
-The closing date for applications is {{ site.registration_closes_date }}.
+{% if site.registration_status == "soon" or site.registration_status == "demo" %}Registration opens on <span class="nowrap">{{ site.registration_opens_date }}</span>.{% endif %}
 
 <div class="aside" markdown="1">
-Check the [commitment required](#what-commitment-is-required) and that you can attend both workshop dates: {{ site.event_date }} and {{ site.event_date_2 }}.
+Check the [commitment required](#what-commitment-is-required) and that you can attend both workshop dates: <span class="nowrap">{{ site.event_date }}</span> and <span class="nowrap">{{ site.event_date_2 }}</span>.
 
 {% if site.registration_status == "soon" or site.registration_status == "demo" %}
   <a class="btn disabled">Registration opens soon</a>
@@ -24,7 +23,7 @@ Check the [commitment required](#what-commitment-is-required) and that you can a
   <a class="btn disabled">Registration has closed</a>
 {% endif %}
 
-The closing date for applications is {{ site.registration_closes_date }}.
+Applications will be reviewed on a rolling basis.
 </div>
 
 ## Who we are looking for
@@ -50,15 +49,15 @@ We also hope that by participating you will build strong relationships with peer
 ## What commitment is required
 
 - Approximately 1 hour of preparation before the first workshop (watching video briefings for the challenge areas and following any reading links).
-- Attendance in-person at the full-day kick off workshop on **{{ site.event_date }}**.
+- Attendance in-person at the full-day kick off workshop on **<span class="nowrap">{{ site.event_date }}</span>**.
 - Work on your challenge area during the period of exploration to develop ideas/resources (as much as you can reasonably contribute).
-- Attendance either in-person or online at the half-day review workshop on **{{ site.event_date_2 }}**.
+- Attendance either in-person or online at the half-day review workshop on **<span class="nowrap">{{ site.event_date_2 }}</span>**.
 
 ## How to apply
 
 If you are interested in applying and having the opportunity to engage with like-minded researchers, then please complete the application form by clicking the link above.
 
-The closing date for the applications is {{ site.registration_closes_date }}.
-If you have any queries, or have any difficulties completing the registration form, please email: <{{ site.mailbox_address }}>.
+Applications will be reviewed on a rolling basis.
+If you have any queries, or have any difficulties completing the registration form, please email: <span class="nowrap"><{{ site.mailbox_address }}></span>.
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

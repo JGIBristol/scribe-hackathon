@@ -7,7 +7,7 @@ event_status:
  - now
 ---
 
-## Full-day kick off workshop (in-person) -- {{ site.event_date }}
+## Full-day kick off workshop (in-person) -- <span class="nowrap">{{ site.event_date }}</span>
 
 {:.agenda}
 Time (BST)     | Activity
@@ -19,7 +19,7 @@ Time (BST)     | Activity
 
 ...
 
-## Half-day review workshop (hybrid) -- {{ site.event_date_2 }}
+## Half-day review workshop (hybrid) -- <span class="nowrap">{{ site.event_date_2 }}</span>
 
 {:.agenda}
 Time (BST)     | Activity

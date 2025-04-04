@@ -6,13 +6,13 @@ menu_icon: house-door
 ---
 
 {:.secondary}
-# {{ site.event_date }} -- {{ site.event_date_2 }}, in association with the Jean Golding Institute
+# <span class="nowrap">{{ site.event_date }}</span> -- <span class="nowrap">{{ site.event_date_2 }}</span>, in association with the Jean Golding Institute
 
 <div class="aside">
     <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
     <dl>
         {% if site.registration_status == "soon" or site.registration_status == "open" or site.registration_status == "demo" %}
-            <dt>{{ site.registration_opens_date }}</dt>
+            <dt><span class="nowrap">{{ site.registration_opens_date }}</span></dt>
             <dd>
                 Applications open for participants<br>
                 {% if site.registration_status == 'open' %}
@@ -25,16 +25,13 @@ menu_icon: house-door
             </dd>
         {% endif %}
 
-        <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Applications close</dd>
-
-        <dt>{{ site.event_date }}, 9:30am – 4pm</dt>
+        <dt><span class="nowrap">{{ site.event_date }}</span>, 9:30am – 4pm</dt>
         <dd>Full-day kick off workshop (in-person)</dd>
 
-        <dt>{{ site.event_date }} – {{ site.event_date_2 }}</dt>
+        <dt><span class="nowrap">{{ site.event_date }}</span> – <span class="nowrap">{{ site.event_date_2 }}</span></dt>
         <dd>Period of exploration</dd>
 
-        <dt>{{ site.event_date_2 }}, 2–4pm</dt>
+        <dt><span class="nowrap">{{ site.event_date_2 }}</span>, 2–4pm</dt>
         <dd>Half-day review workshop (hybrid)</dd>
     </dl>
 </div>
@@ -51,8 +48,8 @@ Working with expert partners from across life sciences, we will be uncovering ho
 Participants can work on three **[challenge areas]({{ site.baseurl }}{% link challenges.md %})** including transboundary One Health threats, resistant infections, and more.
 Challenge owners will provide briefings to the attendees, and an expert team will be available throughout for advice.
 
-The hackathon will commence on **{{ site.event_date }}** with a full-day kick off workshop (in-person).
-There will them be a period of exploration, followed by a half-day review workshop (hybrid) on **{{ site.event_date_2 }}**.
+The hackathon will commence on **<span class="nowrap">{{ site.event_date }}</span>** with a full-day kick off workshop (in-person).
+There will them be a period of exploration, followed by a half-day review workshop (hybrid) on **<span class="nowrap">{{ site.event_date_2 }}</span>**.
 
 [**Participation is open to researchers and staff**]({{ site.baseurl }}{% link registration.md %}) from any research institution, and we encourage contributions from **early and mid-career researchers**[<sup>(?)</sup>][faq]{:title="What do we mean by an Early Career Researcher (ECR)?"}, including PhD students and Postdocs.
 
