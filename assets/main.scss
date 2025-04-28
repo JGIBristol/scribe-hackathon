@@ -233,13 +233,10 @@ iframe.template {
 }
 
 .agenda {
-    th:first-child {
-        min-width: 100px;
-        width: 20%;
-    }
-
-    th:last-child {
-        width: 40%;
+    td:first-child {
+        min-width: 7em;
+        width: 16%;
+        font-variant-numeric: tabular-nums;
     }
 }
 
