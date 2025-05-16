@@ -1,14 +1,22 @@
 # SCRIBE Hackathon website
 
-This is a template repository for a public-facing hackathon website, built by the [Jean Golding Institute](https://bristol.ac.uk/golding/) at the University of Bristol.
+The SCRIBE Hackathon is a biothreat datathon to explore access, nature, and integration of data relating to biothreats in complex environments.
 
-The template is designed to get you started as quickly as possible with a working website. For this reason we have built a [GitHub Pages](https://pages.github.com/) website so you can also host it for free and allow others to collaborate easily.
+Supported and funded by the [Jean Golding Institute](https://bristol.ac.uk/golding/), University of Bristol.
 
-Most of the pages have been written to require only minor editing, however you have the flexibility to completely change them or add new pages as required.
+**[View the website](https://jgibristol.github.io/scribe-hackathon/)**
 
-Demo: <https://jgibristol.github.io/hackathon-template>
+## Contributors
 
-## Getting started
+* [James Thomas](https://github.com/jatonline), Jean Golding Institute, University of Bristol
+* Alex Tasker, Bristol Veterinary School, University of Bristol
+* Theo Richardson-Gool, Bristol Medical School, University of Bristol
+
+## Acknowledgements
+
+This website was built using the Jean Golding Institute [hackathon template repository](https://github.com/JGIBristol/hackathon-template).
+
+## Development
 
 ### GitHub pages
 
@@ -131,11 +139,3 @@ $ git add .
 $ git commit -m "Add agenda to website"
 $ git push
 ```
-
-## Contributors
-
-* [James Thomas](https://github.com/jatonline), Jean Golding Institute
-
-## Acknowledgements
-
-This template was originally based on the [CMIP6 Data Hackathon](https://cmip6moap.github.io/) website and resources that we created for the event on 2-4 June 2021. It has now been modified to suit a wider variety of virtual hackathons.
