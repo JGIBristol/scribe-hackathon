@@ -6,7 +6,10 @@ menu_icon: house-door
 ---
 
 {:.secondary}
-# <span class="nowrap">{{ site.event_date }}</span> -- <span class="nowrap">{{ site.event_date_2 }}</span>, in association with the Jean Golding Institute
+## Strategic Critical Rapid Integrated Biothreat Evaluation
+
+{:.secondary}
+## <span class="nowrap">{{ site.event_date }}</span> -- <span class="nowrap">{{ site.event_date_2 }}</span>, in association with the Jean Golding Institute
 
 <div class="aside">
     <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
