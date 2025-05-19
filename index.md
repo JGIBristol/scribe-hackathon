@@ -51,6 +51,16 @@ Working with expert partners from across life sciences, we will be uncovering ho
 Participants can work on three **[challenge areas]({{ site.baseurl }}{% link challenges.md %})** including transboundary One Health threats, resistant infections, and more.
 Challenge owners will provide briefings to the attendees, and an expert team will be available throughout for advice.
 
+Possible outputs include:
+
+1. Maintaining a community focused on using data to address complex, policy-focused issues in difficult areas.
+
+2. Publishing papers on the challenges of working across SCRIBE, and identifying possible future ways of working.
+
+3. Develop policy and operational advice for practitioners building and using data systems.
+
+4. Topic- or methods-specific publications designed to engage and extend the data science community to think about SCRIBE threats.
+
 The hackathon will commence on **<span class="nowrap">{{ site.event_date }}</span>** with a full-day kick off workshop (in-person).
 There will them be a period of exploration, followed by a half-day review workshop (hybrid) on **<span class="nowrap">{{ site.event_date_2 }}</span>**.
 
