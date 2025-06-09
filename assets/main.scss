@@ -232,7 +232,8 @@ iframe.template {
     }
 }
 
-.agenda {
+.agenda tbody {
+    th:first-child,
     td:first-child {
         min-width: 7em;
         width: 16%;
